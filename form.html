@@ -1,0 +1,541 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Soft tech school</title>
+      
+ <link rel="stylesheet" href="css/bs.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="js/bst.min.js"></script>
+		<script type="text/javascript" src="js/validator.min.js"></script>
+	  
+	 	<script type="text/javascript">
+		$(function () {
+			$('.js-btn').on('click', function(){
+				/*alert('Click Ok');*/
+				//alert($('#fullname').val());
+				//alert($('#email').val());
+
+				$('#js-FirstName').text($('#FirstName').val());
+				$('#js-LastName').text($('#LastName').val());
+				$('#js-FathersName').text($('#FathersName').val());
+				$('#js-MothersName').text($('#MothersName').val());
+				$('#js-Birth').text($('#Birth').val());
+				$('#js-Gender').text($('#Gender').val());
+				$('#js-Religion').text($('#Religion').val());
+				$('#js-Marital').text($('#Marital').val());
+				$('#js-Nationality').text($('#Nationality').val());
+				$('#js-idno').text($('#idno').val());
+				$('#js-Present').text($('#Present').val());
+				$('#js-permanent ').text($('#permanent ').val());
+				$('#js-1').text($('#1').val());
+				$('#js-2').text($('#2').val());
+				$('#js-3').text($('#3').val());
+				$('#js-Current').text($('#Current').val());
+				$('#js-Email').text($('#Email').val());
+				$('#js-Alternate').text($('#Alternate').val());
+				$('#cv-box').show();
+			});
+		});
+	</script> 
+	  
+	  
+	  
+	  
+	  
+	  
+	  </head>
+<body class="body">
+
+<div class="container"> <!------------container----------->
+
+<div class="panel panel-default"> <!--------------1st panel---------->
+
+    <div class="icon"> <!--------------icon---------->
+  <span class="glyphicon glyphicon-home" aria-hidden="true"><a href="index.html"><b style="color:blue;margin-left:3px;">HOME</b></a></span> </div> <!--------------icon---------->
+
+  <div class="panel-body"> <!--------------1st panel body---------->
+
+  <div class="panel panel-default"> <!--------------panel panel-default---------->
+  <div class="heading panel-heading">  <!--------------panel heading / Nav tabs---------->
+    <div>  <!-------------- Nav ---------->
+
+  
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="col-md-2" "active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" class="a"><p class="p"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><br />Personal</p></a></li>
+    <li role="presentation" class="col-md-3"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" class="a"><p class="p"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><br />Education/Training</p></a></li>
+    <li role="presentation" class="col-md-2"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" class="a"><p class="p"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span><br />Employment</p></a></li>
+    <li role="presentation" class="col-md-3"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab" class="a"><p class="p"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span><br />Other Information</p></a></li>
+    <li role="presentation" class="col-md-2"><a href="#Photograph" aria-controls="settings" role="tab" data-toggle="tab" class="a"><p class="p"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span><br />Photograph</p></a></li>
+  </ul>
+
+  </div> <!-------------- Nav ---------->
+  </div> <!--------------panel heading / Nav tabs---------->
+  
+  <div class="panel-body"> <!-------------- panel-body /Nav-details ---------->
+    
+    <div class="tab-content"> <!-------------- Nav-details ---------->
+ <div role="tabpanel" class="tab-pane active" id="home">  <!-------------- home panel ---------->
+	
+	<div class="panel panel-default">  <!-------------- home form ---------->
+  <div class="panel-heading">  <!-------------- home panel title ---------->
+    <h3 class="panel-title"><span class="glyphicon glyphicon-zoom-out" aria-hidden="true"></span> Personal details</h3>
+  </div><!-------------- home panel title ---------->
+  
+  <div class="panel-body">  <!-------------- home panel body ---------->
+  
+ <form data-toggle="validator" role="form"> 
+
+<div class="col-md-6">	   
+  
+			<div class="form-group">
+    <label for="inputName" class="control-label">FirstName</label>
+    <input type="text" class="form-control" id="FirstName" placeholder=" First Name" required="">
+  </div>
+  
+  
+  <div class="form-group">
+    <label for="inputName" class="control-label">Last Name</label>
+    <input type="text" class="form-control" id="LastName" placeholder=" Last Name" required="">
+  </div>
+  
+  <div class="form-group">
+    <label for="inputName" class="control-label">Father's Name</label>
+    <input type="text" class="form-control" id="FathersName" placeholder=" Father's Name*" required="">
+  </div>
+  
+  <div class="form-group">
+    <label for="inputName" class="control-label">Mother's Name</label>
+    <input type="text" class="form-control" id="MothersName" placeholder=" Mother's Name*" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="inputName" class="control-label">Date of Birth </label>
+    <input type="text" class="form-control" id="Birth" placeholder="MM / DD / YY" required="">
+  </div>
+  
+  <div class="form-group">
+    <label for="inputName" class="control-label">Gender </label>
+    <input type="text" class="form-control" id="Gender" placeholder=" Gender" required="">
+  </div>
+  
+  <div class="form-group">
+    <label for="inputName" class="control-label">Religion </label>
+    <input type="text" class="form-control" id="Religion" placeholder=" Religion" required="">
+  </div>
+    
+  <div class="form-group">
+    <label for="inputName" class="control-label">Nationality </label>
+	  <div class="form-group">
+    <div class="select box">
+     <select name="" id="">
+     <option value="">America</option>
+     <option value="">Argentina</option>
+     <option value="">Brazil</option>
+     <option value="">Bangladesh</option>
+     <option value="">China</option>
+     <option value="">Canada</option>
+     <option value="">India</option>
+     <option value="">Nepel</option>
+     <option value="">Russia</option>
+     <option value="">Kazakhstan</option>
+
+</select>
+    </div>
+  </div>
+    <input type="text" class="form-control" id="Nationality" placeholder=" Nationality" required="">
+  </div>
+  
+  <div class="form-group">
+    <label for="inputName" class="control-label">National id no </label>
+    <input type="text" class="form-control" id="idno" placeholder=" National id no" required="">
+  </div>
+  
+    <div class="form-group">
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="cancel" class="btn btn-primary" style="background-color:#ef5c5c;">cancel</button>
+  </div>
+  
+ </div><!--------------1st col-md-6---------->
+ 
+ <div class="col-md-6">
+
+  	    <div class="form-group">  
+    <label for="message" class="control-label">Present address </label>
+    <textarea name="message" class="form-control" cols="" rows="" id="Present" placeholder="  Present address  " required></textarea>
+  </div>
+
+  	    <div class="form-group">  
+    <label for="message" class="control-label">permanent address </label>
+    <textarea name="message" class="form-control" cols="" rows="" id="permanent" placeholder="  permanent address  " required></textarea>
+  </div> 
+  
+    	  <div class="form-group"> 
+    <label for="exampleInputEmail1"><b>Current Location </b></label><br />
+	<div class="radio1 radio"><input type="radio"  name="Current-Location" />Inside country</div>
+	<div class="radio2 radio"><input type="radio"  name="Current-Location" />Outside country </div>
+    <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1" id="Current" required>
+     </div> 
+
+  <div class="form-group">
+    <label for="inputName" class="control-label" >Mobile no 1<b style="color:green">(provide at last one phone number)</b></label>
+    <input type="text" class="form-control" id="1" placeholder=" Mobile no 1" required="">
+  </div>
+
+  <div class="form-group">
+    <label for="inputName" class="control-label">Mobile no 2</label>
+    <input type="text" class="form-control" id="2" placeholder=" Mobile no 2" required="" >
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="inputName" class="control-label">Email</label>
+    <input type="text" class="form-control" id="Email" placeholder=" Email" required="">
+  </div>
+
+  <div class="form-group">
+    <label for="inputName" class="control-label">Alternate Email<b style="color:green">(Do not enter/provide more than one e-mail address in either of other fields)</b> </label>
+    <input type="text" class="form-control" id="Alternate" placeholder=" Alternate Email" >
+  </div>  
+ 
+ </div><!--------------2nd col-md-6---------->
+ 
+
+</form>
+
+  
+</div><!-------------- home panel body ---------->
+
+
+<div style="width: 100%; border: 1px solid; padding: 45px; display:none; height: 710px;" id="cv-box">
+<div class="edi" >
+	<p class="t">First Name : <span id="js-FirstName"></span></p>
+	<p class="t">Last Name : <span id="js-LastName"></span></p>
+	<p class="t">Fathers Name : <span id="js-FathersName"></span></p>
+	<p class="t">Mothers Name : <span id="js-MothersName"></span></p>
+	<p class="t">Date of Birth : <span id="js-Birth"></span></p>
+	<p class="t">Gender : <span id="js-Gender"></span></p>
+	<p class="t">Religion : <span id="js-Religion"></span></p>
+	<p class="t">Marital status : <span id="js-Marital"></span></p>
+	<p class="t">Nationality : <span id="js-Nationality"></span></p>
+	<p class="t">National id no : <span id="js-idno"></span></p>
+	
+</div>
+
+<div class="edi"  >
+	<p class="t">Present address : <span id="js-Present"> </span></p>
+	<p class="t">permanent address : <span id="js-permanent"> </span></p>
+	<p class="t">Mobile no 1 : <span id="js-1"></span></p>
+	<p class="t">Mobile no 2 : <span id="js-2"></span></p>
+	<p class="t">Mobile no 3 : <span id="js-3"></span></p>
+	<p class="t">Current Location : <span id="js-Current"></span></p>
+	<p class="t">Email : <span id="js-Email"></span></p>
+	<p class="t">Alternate Email : <span id="js-Alternate"></span></p>
+
+	
+</div>
+
+
+      </div>
+
+
+
+</div><!-------------- home form ---------->
+</div> <!-------------- home panel ---------->
+
+
+
+    <div role="tabpanel" class="tab-pane" id="profile"><!-------------- profile panel ---------->
+	
+	
+	<div class="panel-default"> <!-------------- profile panel ---------->
+  <div class="panel-heading"> <!-------------- panel-heading panel ---------->
+    <h3 class="panel-title"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Acadamic Summry</h3>
+  </div>  <!-------------- panel-heading panel ---------->
+  <div class="panel-body"> <!-------------- panel-body panel ---------->
+  <form data-toggle="validator" role="form">
+    <div class="col-md-12"><b>Academic 1</b></div> <br /><br /> <!-------------- Academic col ---------->
+	
+  <div class="col-md-6 form-group">
+    <label for="inputName" class="control-label">Level Of Education *</label>
+    <input type="text" class="form-control" id="inputName" placeholder=" Level Of Education" required>
+  </div>
+  
+    <div class="col-md-6 form-group">
+    <label for="inputName" class="control-label">Result *</label>
+    <input type="text" class="form-control" id="inputName" placeholder=" Result" required>
+  </div>
+  
+    <div class="col-md-6 form-group">
+    <label for="inputName" class="control-label">Exam / DegreeTitle *</label>
+    <input type="text" class="form-control" id="inputName" placeholder=" Exam / DegreeTitle" required>
+  </div>
+  
+    <div class="col-md-6 form-group">
+    <label for="inputName" class="control-label">Year Of Passing *</label>
+    <input type="text" class="form-control" id="inputName" placeholder=" Year Of Passing" required>
+  </div>
+  
+    <div class="col-md-6 form-group">
+    <label for="inputName" class="control-label">Concentration / Major / Group *</label>
+    <input type="text" class="form-control" id="inputName" placeholder=" Concentration / Major / Group" required>
+  </div>
+  
+    <div class="col-md-6 form-group">
+    <label for="inputName" class="control-label">Duration (Year) *</label>
+    <input type="text" class="form-control" id="inputName" placeholder=" Duration (Year)" required>
+  </div>
+  
+      <div class="col-md-6 form-group">
+    <label for="inputName" class="control-label">Institute Name *</label>
+    <input type="text" class="form-control" id="inputName" placeholder=" Institute Name" required>
+		  <div class="form-group">
+    <div class="checkbox">
+      <label>
+        <input type="checkbox"   >
+        This is a foreing Institute
+      </label>
+      
+    </div>
+  </div>
+  </div>
+  
+      <div class="col-md-12 form-group">
+    <label for="inputName" class="control-label">Achivement *</label>
+    <input type="text" class="form-control" id="inputName" placeholder=" Achivement" required>
+  </div>
+  
+
+      <div class="col-md-12 form-group">
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="cancel" class="btn btn-primary" style="background-color:#ef5c5c;">cancel</button>
+  </div>
+  
+
+	
+</div>  <!-------------- panel-body panel ---------->
+</div>  <!-------------- profile panel ---------->
+</div>  <!-------------- profile panel ---------->
+	
+	
+	 <div role="tabpanel" class="tab-pane" id="messages"> <!-------------- Employment panel ---------->
+	 
+	 <div class="panel panel-default"> <!-------------- Employment panel ---------->
+  <div class="panel-heading"> <!-------------- Employment panel-heading---------->
+    <h3 class="panel-title"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Employment History</h3>
+  </div> <!-------------- Employment panel-heading---------->
+  <div class="panel-body"> <!-------------- Employment panel body ---------->
+  
+   <div class="col-md-12"><b>Add Experience</b></div> <br /><br /> <!-------------- Academic col ---------->
+  
+  
+  <div class="col-md-6"><!-------------- Employment panel body 1st col ---------->
+
+  
+  <div class="col-md-12">  <!--------------Company Name *---------->
+  
+  	  <div class="form-group"> 
+    <label for="exampleInputEmail1"><b>Company Name *</b></label>
+    <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+     </div>  
+  
+  </div>  <!--------------Company Name *--------->
+  
+              	                     <div class="col-md-12">  <!--------------Company Business *---------->
+  
+  	  <div class="form-group"> 
+    <label for="exampleInputEmail1"><b>Company Business *</b></label>
+    <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+     </div>  
+  
+  </div>  <!--------------Company Business *--------->
+  
+             <div class="col-md-12">  <!--------------Desingnation *---------->
+  
+  	  <div class="form-group"> 
+    <label for="exampleInputEmail1"><b>Desingnation *</b></label>
+    <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+     </div>  
+  
+  </div>  <!--------------Desingnation *--------->
+  
+                  	                     <div class="col-md-12">  <!--------------Area of Experties: *---------->
+  
+  	  <div class="form-group"> 
+    <label for="exampleInputEmail1"><b>Area of Experties: *</b></label><br /><i>Add your experiences skill</i>
+    <input type="text" class="form-control" placeholder="Add your experiences skill" aria-describedby="basic-addon1">
+     </div>  
+  
+  </div>  <!--------------Area of Experties: *--------->
+  
+                 <div class="col-md-12">  <!-------------- save / cancel * ---------->
+  
+<button type="button" class="btn btn-success">Save</button>
+<button type="button" class="btn btn-default">cancel</button>
+  
+ </div>  <!-------------- save / cancel * ---------->
+ </div> <!-------------- Employment panel body 1st col---------->
+ 
+ <div class="col-md-6"> <!-------------- Employment panel body 2nd col---------->
+ 
+     <div class="col-md-12"> <!-------------- Responsibilities * ----------> 
+  
+  	    <div class="form-group">  
+    <label for="Message"><b>Responsibilities *</b></label>
+    <textarea name="message" class="form-control" cols="" rows=""></textarea>
+  </div>
+  
+  </div> <!-------------- Responsibilities * ---------->
+  
+       <div class="col-md-12"> <!-------------- Company Location ----------> 
+  
+  	    <div class="form-group">  
+    <label for="Message"><b>Company Location</b></label>
+    <textarea name="message" class="form-control" cols="" rows=""></textarea>
+  </div>
+  
+  </div> <!-------------- Company Location ---------->
+  
+  <div class="col-md-12"> <!--------------Employment period *---------->
+  
+    	    <div class="form-group">  <!--------------Employment period *---------->
+    <label for="Message"><b>Employment period *</b></label><br />
+	
+	  <div class="col-md-6"> <!--------------Employment period form *---------->
+  <div class="input-group">
+
+  <input type="text" class="form-control" placeholder="Form" aria-describedby="basic-addon1">
+  
+</div>
+  
+  </div>  <!--------------Employment period form *---------->
+  
+      <div class="col-md-6"> <!--------------Employment period to *---------->
+  <div class="input-group">
+
+  <input type="text" class="form-control" placeholder="To" aria-describedby="basic-addon1">
+  
+       </div>
+</div> <!--------------Employment period to *---------->
+</div> <!--------------Employment period *---------->
+  
+
+       <div><input type="checkbox"> Currently Working</div>
+
+</div> <!-------------- Employment period *---------->
+</div><!-------------- Employment panel body 2nd col---------->
+</div> <!-------------- Employment panel body ---------->
+</div> <!-------------- Employment panel ---------->
+</div><!-------------- Employment panel ---------->
+	 
+	 
+	 
+	 
+    <div role="tabpanel" class="tab-pane" id="settings">  <!-------------- Other Information ---------->
+	
+	<div class="panel panel-default"> <!-------------- Other Information panel---------->
+  <div class="panel-heading">  <!-------------- Other Information head---------->
+    <h3 class="panel-title"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Specialization</h3>
+  </div>  <!-------------- Other Information head---------->
+  <div class="panel-body"> <!-------------- Other Information body---------->
+  
+       <div class="col-md-12">  <!--------------Skill(max10)---------->
+  
+  	  <div class="form-group"> 
+    <label for="exampleInputEmail1"><b>Skill(max10)</b></label>
+    <input type="text" class="form-control" placeholder="Add more..." aria-describedby="basic-addon1">
+     </div>  
+  
+  </div>  <!--------------Skill(max10)--------->
+  
+      <div class="col-md-12"> <!-------------- Skill Description: ----------> 
+  
+  	    <div class="form-group">  
+    <label for="Message"><b>Skill Description:</b></label>
+    <textarea name="message" class="form-control" cols="" rows=""></textarea>
+  </div>
+  
+  </div> <!-------------- Skill Description: ---------->
+  
+        <div class="col-md-12"> <!--------------Extracurricular Activities: ----------> 
+  
+  	    <div class="form-group">  
+    <label for="Message"><b>Extracurricular Activities:</b></label>
+    <textarea name="message" class="form-control" cols="" rows=""></textarea>
+  </div>
+  
+  </div> <!-------------- Extracurricular Activities: ---------->
+  
+                   <div class="col-md-12">  <!-------------- save / cancel * ---------->
+  
+<button type="button" class="btn btn-success">Save</button>
+<button type="button" class="btn btn-default">cancel</button>
+  
+ </div>  <!-------------- save / cancel * ---------->
+  
+  
+ </div> <!-------------- Other Information body---------->
+</div> <!-------------- Other Information panel---------->
+</div>  <!-------------- Other Information ---------->
+	
+	
+    <div role="tabpanel" class="tab-pane" id="Photograph"> <!--------------Photograph---------->      
+	
+	<div class="panel panel-default">
+  <div class="panel-body">  <!--------------Photograph body---------->   
+   <center>
+					<div class="empty-message m-t-20 photo-upload">
+						<form id="form1" class="form-inline" action="" method="post" enctype="multipart/form-data">
+							
+							<div class="img-mobile">
+								<div class="user-photo" id="changeImage"> <img src="me.jpg" class="img-responsive" alt="User Photo"> </div>
+							</div>
+							<div id="noData" style="display: inline;">
+								<p>You don't have any photo, Please upload photo </p>
+							</div>
+							<div class="row" id="uploadSMPhoto" style="display: inline">
+								<div class="col-md-12">
+									<div class="form-group form">
+										<input class="file-back form-control" id="File1" onchange="return CheckImage();" name="File1" value="" type="file">
+									</div>
+									
+								</div>
+							</div>
+							<div class="row">
+	<div class="col-md-12">
+																	
+       <button class="btn btn-primary btn-upload" id="uploadPhoto" type="submit" >Upload Photo</button>
+																	
+	</div>
+							
+
+						</form>
+					</div>
+					</center>
+	</div>			
+  </div><!--------------Photograph body---------->
+</div> <!--------------Photograph---------->
+	
+	
+	
+	</div><!--------------Photograph----------> 
+	
+	
+	
+	
+	
+	
+	
+ </div><!-------------- Nav-details ---------->
+</div><!-------------- panel-body /Nav-details ----------> 
+</div>  <!--------------panel panel-default---------->
+</div><!--------------panel panel-default---------->
+</div>  <!--------------1st panel body---------->
+</div>   <!--------------1st panel---------->
+</div> 	<!---------------container---------------->
+</body>
+</html>
